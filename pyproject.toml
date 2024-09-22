@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "cython-exp"
+version = "0.1.0"
+description = ""
+authors = ["Sushrit Pasupuleti <sushrit.pk21@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+Cython = "^3.0.11"
+setuptools = "^75.1.0"
+numpy = "^2.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
